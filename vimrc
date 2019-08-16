@@ -1,5 +1,7 @@
 set tabstop=4
 set softtabstop=4
 set expandtab
-set shiftwidth=4            #when you shift block of lines in visual mode
+set shiftwidth=2
 hi Comment ctermfg=LightBlue
+set ic
+set smartcase
