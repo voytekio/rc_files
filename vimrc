@@ -6,3 +6,4 @@ hi Comment ctermfg=LightBlue "changes the blue to ligher version so its visible 
 set ic "case insensitive
 set smartcase "case insensitive if you use lowercase while searching
 set autoindent "indent: next line as previous. Also see smartindent
+map q <Nop>
