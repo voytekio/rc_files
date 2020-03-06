@@ -7,3 +7,4 @@ set ic "case insensitive
 set smartcase "case insensitive if you use lowercase while searching
 set autoindent "indent: next line as previous. Also see smartindent
 map q <Nop>
+set breakindent "sets hanging indent for notes, need vim 7.4.338
