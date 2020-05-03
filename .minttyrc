@@ -1,0 +1,8 @@
+Font=Consolas
+CursorType=block
+RightClickAction=paste
+ThemeFile=vga
+BackgroundColour=24,24,24
+FontHeight=11
+Rows=30
+Columns=120
