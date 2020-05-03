@@ -1,15 +1,2 @@
-git bash:
-    - see github.io/voytek/rc_files/windows_custom.txt
-    - settings: custom: prefs:
-    - looks: 
-        - theme: vga?
-        - background: rgb: 12/12/12
-        - cursor: block and blinking
-    - text
-        - font: consolas, size 11pt
-    - mouse:
-        r.mouse button - Paste
-
-    - for vi mode:
-    - for prompt:
-        use my .bashrc
+- git bash:
+    - moved to github.io/voytek/rc_files/.minttyrc
