@@ -24,10 +24,13 @@ export PS1='\[\033[1;32m\]\w> \[\033[00m\]'
 # other sources:
 # source ~/.foorc
 
+# aliases:
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 # directory aliases:
-# alias salt="cd /etc/salt"
-
-#hosts aliases:
+#alias salt="cd /etc/salt"
+# hosts aliases:
 #alias saltmaster='cd ~/rand/vms/master3' #vagrant
 #alias foo_host='ssh voytek@foo_host.fqdn.com'
 
