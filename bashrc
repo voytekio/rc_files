@@ -15,7 +15,8 @@ alias lll="ls -lah"
 #alias ls='ls --color=auto'
 
 # prompts:
-export PS1='[\u@\w]> '
+# \u - user, \w - directory, \h - host
+export PS1='[\u@\w]> ' # [voytek@~/repos]> ...
 # export PS1='[\u@\w]$ '
 # export PS1='[\u@\h:\w]> '  # if you need hostname
 export PS1='\[\033[1;32m\]\w> \[\033[00m\]'
