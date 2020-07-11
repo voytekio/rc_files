@@ -17,3 +17,5 @@ set smartcase "case insensitive if you use lowercase while searching
 set autoindent "indent: next line as previous. Also see smartindent
 set breakindent "sets hanging indent for notes, need vim 7.4.338
 set number "adds line numbering"
+set list "enables marking invisible chars like tabs, trails etc"
+set listchars=tab:>-,trail:X "tabs to show as >--- and trails as X
