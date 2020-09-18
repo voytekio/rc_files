@@ -19,3 +19,4 @@ set autoindent "indent: next line as previous. Also see smartindent
 set number "adds line numbering"
 set list "enables marking invisible chars like tabs, trails etc"
 set listchars=tab:>-,trail:X "tabs to show as >--- and trails as X
+map <S-k> <Nop>
