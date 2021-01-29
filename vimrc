@@ -10,7 +10,7 @@ hi Identifier ctermfg=6 "cyan
 hi Statement ctermfg=3 "yellow
 hi Preproc ctermfg=5 "magenta
 hi LineNr ctermfg=DarkGray "uses ctermfg=0 cterm=bold
-                            
+
 map q <Nop>
 set ic "case insensitive
 set smartcase "case insensitive if you use lowercase while searching
