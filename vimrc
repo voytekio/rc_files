@@ -21,7 +21,9 @@ set list "enables marking invisible chars like tabs, trails etc"
 set listchars=tab:>-,trail:X "tabs to show as >--- and trails as X
 map <S-k> <Nop>
 set hls "sets highlighting when searching with /"
-map <space> :noh<CR> "clears highlighting with space bar
+" line below clears highlight with space bar
+map <space> :noh<CR>
+
 " change cursor for Normal and Insert modes
 " perhpas the if/else is not needeed and can do with just doing the tmux part
 " if exists('$TMUX')
