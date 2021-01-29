@@ -21,3 +21,17 @@ set list "enables marking invisible chars like tabs, trails etc"
 set listchars=tab:>-,trail:X "tabs to show as >--- and trails as X
 map <S-k> <Nop>
 set hls "sets highlighting when searching with /"
+map <space> :noh<CR> "clears highlighting with space bar
+" change cursor for Normal and Insert modes
+" perhpas the if/else is not needeed and can do with just doing the tmux part
+" if exists('$TMUX')
+"  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+"  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+" else
+"  let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+"  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+" endif
+let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+" work on one below and leave the one above alone
+let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
+" 0 - full cursor, 1 - pipe-like, 2-underbar
