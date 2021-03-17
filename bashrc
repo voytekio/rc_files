@@ -10,7 +10,8 @@ set -o vi
 
 # ll's:
 #alias ll='ls -alF'
-alias ll="ls -ltr"
+#alias ll="ls -ltr"
+alias ll="ls -latr"
 alias lll="ls -lah"
 #alias ls='ls --color=auto'
 
