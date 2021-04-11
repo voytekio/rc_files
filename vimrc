@@ -23,6 +23,7 @@ map <S-k> <Nop>
 set hls "sets highlighting when searching with /"
 " line below clears highlight with space bar
 map <space> :noh<CR>
+set ruler "shows line/column/percent in bottom-right corner
 
 " change cursor for Normal and Insert modes
 " perhpas the if/else is not needeed and can do with just doing the tmux part
