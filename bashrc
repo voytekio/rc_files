@@ -17,11 +17,13 @@ alias lll="ls -lah"
 
 # prompts:
 # \u - user, \w - directory, \h - host
-export PS1='[\u@\w]> ' # [voytek@~/repos]> ...
+#export PS1='[\u@\w]> ' # [voytek@~/repos]> ...
 # export PS1='[\u@\w]$ '
 # export PS1='[\u@\h:\w]> '  # if you need hostname
-export PS1='\[\033[1;32m\]\w> \[\033[00m\]'
-
+#export PS1='\[\033[1;32m\]\w> \[\033[00m\]' # w/ colors
+#export PS1='\[\033[1;32m\]\u:\w> \[\033[00m\]' # + user
+export PS1='\[\033[1;32m\]\u@\h:\w> \[\033[00m\]' # + hostname
+   
 # other sources:
 # source ~/.foorc
 
